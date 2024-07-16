@@ -21,7 +21,7 @@
 | 17     | Letter Combinations of a Phone Number                   | Medium     | [Link](https://leetcode.com/problems/letter-combinations-of-a-phone-number)                   |                  |                    |
 | 18     | 4Sum                                                    | Medium     | [Link](https://leetcode.com/problems/4sum)                                                    |                  |                    |
 | 19     | Remove Nth Node From End of List                        | Medium     | [Link](https://leetcode.com/problems/remove-nth-node-from-end-of-list)                        |                  |                    |
-| 20     | Valid Parentheses                                       | Easy       | [Link](https://leetcode.com/problems/valid-parentheses)                                       |                  |                    |
+| 20     | Valid Parentheses                                       | Easy       | [Link](https://leetcode.com/problems/valid-parentheses)                                       | [20](Easy/20.py) | :hammer: Refactor  |
 | 21     | Merge Two Sorted Lists                                  | Easy       | [Link](https://leetcode.com/problems/merge-two-sorted-lists)                                  |                  |                    |
 | 22     | Generate Parentheses                                    | Medium     | [Link](https://leetcode.com/problems/generate-parentheses)                                    |                  |                    |
 | 23     | Merge k Sorted Lists                                    | Hard       | [Link](https://leetcode.com/problems/merge-k-sorted-lists)                                    |                  |                    |
