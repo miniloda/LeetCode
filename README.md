@@ -52,3 +52,9 @@
 | 48     | Rotate Image                                            | Medium     | [Link](https://leetcode.com/problems/rotate-image)                                            |                  |                    |
 | 49     | Group Anagrams                                          | Medium     | [Link](https://leetcode.com/problems/group-anagrams)                                          |                  |                    |
 | 50     | Pow(x, n)                                               | Medium     | [Link](https://leetcode.com/problems/powx-n)                                                  |                  |                    |
+
+Other problems (not in order)
+
+| Number | Name             | Difficulty | Link to Kaggle                                                      | Link to Code          | Status             |
+|--------|------------------|------------|---------------------------------------------------------------------|-----------------------|--------------------| 
+| 1054   | Distant Barcodes | Medium     | [link](https://leetcode.com/problems/distant-barcodes/description/) | [1054](Medium/1054.py | :heavy_check_mark: |
