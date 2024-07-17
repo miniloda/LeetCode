@@ -1,6 +1,6 @@
 # LeetCode
 
-| Number | Name                                                    | Difficulty | Link to Kaggle                                                                                | Link to Code     | Status             |
+| Number | Name                                                    | Difficulty | Link to Leetcode                                                                              | Link to Code     | Status             |
 |--------|---------------------------------------------------------|------------|-----------------------------------------------------------------------------------------------|------------------|--------------------|
 | 1      | Two Sum                                                 | Easy       | [Link](https://leetcode.com/problems/two-sum)                                                 |                  | :heavy_check_mark: |
 | 2      | Add Two Numbers                                         | Medium     | [Link](https://leetcode.com/problems/add-two-numbers)                                         | [2](Medium/2.py) | :heavy_check_mark: |
@@ -55,6 +55,7 @@
 
 Other problems (not in order)
 
-| Number | Name             | Difficulty | Link to Kaggle                                                      | Link to Code          | Status             |
-|--------|------------------|------------|---------------------------------------------------------------------|-----------------------|--------------------| 
-| 1054   | Distant Barcodes | Medium     | [link](https://leetcode.com/problems/distant-barcodes/description/) | [1054](Medium/1054.py | :heavy_check_mark: |
+| Number | Name                | Difficulty | Link to LeetCode                                                      | Link to Code           | Status             |
+|--------|---------------------|------------|-----------------------------------------------------------------------|------------------------|--------------------| 
+| 1054   | Distant Barcodes    | Medium     | [link](https://leetcode.com/problems/distant-barcodes/description/)   | [1054](Medium/1054.py) | :heavy_check_mark: |
+| 207    | Contains Duplicates | Easy       | [Link](https://leetcode.com/problems/contains-duplicate/description/) | [207](Easy/207.py)     | :heavy_check_mark: |
