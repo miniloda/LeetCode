@@ -6,37 +6,20 @@ class ListNode:
          self.next = next
 class Solution:
     def mergeTwoLists(self, list1: Optional[ListNode], list2: Optional[ListNode]) -> Optional[ListNode]:
-        if list1 is None:
-            return list2
-        if list2 is None:
-            return list1
-        prev = None
-        curr1, curr2 = list1, list2
-        while curr1 is not None and curr2 is not None:
-            if curr1.val <= curr2.val:
-                if prev is None:
-                    prev = curr1
-                else:
-                    prev.next = curr1
-                prev = curr1
-                curr1 = curr1.next
+        curr = dummy = ListNode()
+        while list1 and list2:
+            if list1.val <= list2.val:
+                curr.next = list1
+                list1 = list1.next
             else:
-                if prev is None:
-                    prev = curr2
-                else:
-                    prev.next = curr2
-                prev = curr2
-                curr2 = curr2.next
-        while curr1 is not None and curr2 is None:
-            prev.next = curr1
-            prev = curr1
-            curr1 = curr1.next
-        while curr2 is not None and curr1 is None:
-            prev.next = curr2
-            prev = curr2
-            curr2 = curr2.next
-
-        return prev
+                curr.next = list2
+                list2 = list2.next
+            curr = curr.next
+        if list1:
+            curr.next = list1
+        if list2:
+            curr.next = list2
+        return dummy.next
 
 if __name__ == "__main__":
     # Create linked list 1
